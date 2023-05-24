@@ -1,0 +1,110 @@
+@media (max-width: 991px) {
+  header {
+    padding: 15px 30px 15px 15px !important;
+  }
+}
+@media (max-width: 670px) {
+  header .site-logo img {
+    width: 102px;
+  }
+}
+header .menu-bar .nav_btn {
+  height: 30px;
+  width: 30px;
+}
+header .menu-bar .nav_btn span {
+  transition: 0.3s ease-in-out;
+}
+header .menu-bar ul {
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+@media (max-width: 991px) {
+  header .menu-bar ul {
+    padding: 15px;
+  }
+}
+
+.menu_open .site-logo {
+  position: relative;
+  z-index: 9999;
+}
+.menu_open .menu-bar .nav_btn {
+  position: relative;
+  z-index: 9999;
+}
+.menu_open .menu-bar .nav_btn span {
+  margin: -4px;
+}
+.menu_open .menu-bar .nav_btn span:first-child {
+  transform: rotate(45deg);
+}
+.menu_open .menu-bar .nav_btn span:last-child {
+  transform: rotate(-45deg);
+}
+.menu_open .menu-bar ul {
+  z-index: 999;
+  padding-top: 160px;
+}
+@media (max-width: 991px) {
+  .menu_open .menu-bar ul {
+    padding-top: 120px;
+  }
+}
+@media (max-width: 1366px) {
+  .menu_open .menu-bar ul {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  .menu_open .menu-bar ul {
+    font-size: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .menu_open .menu-bar ul {
+    font-size: 40px;
+  }
+}
+
+.banner_section {
+  padding: 15px;
+  background-image: url("../images/h8-img-01@2x.png");
+}
+.banner_section .banner-slider .slick-arrow {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+.banner_section .banner-slider .slick-arrow.slick-prev {
+  right: 55px;
+}
+@media (max-width: 767px) {
+  .banner_section .banner-slider .slick-arrow.slick-prev {
+    right: auto;
+    left: calc(50% - 50px);
+  }
+}
+@media (max-width: 767px) {
+  .banner_section .banner-slider .slick-arrow.slick-next {
+    left: auto;
+    right: calc(50% - 50px);
+  }
+}
+@media (max-width: 1366px) {
+  .banner_section .banner-slider .cust_title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  .banner_section .banner-slider .cust_title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .banner_section .banner-slider .cust_title {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
